@@ -5,7 +5,7 @@ package com.xfang.nbclassifier;
  **/
 
 /**
- * statistics result for each attribute value. including frequency and conditional probability
+ * statistics result for each feature value for each label. including information frequency and conditional probability.
  */
 public class StatResult {
     private int count = 0;
@@ -16,7 +16,7 @@ public class StatResult {
     }
 
 
-    public void increaseCount(){
+    public void increaseCount() {
         this.count++;
     }
 
